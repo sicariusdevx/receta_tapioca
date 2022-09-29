@@ -76,6 +76,61 @@
     <p><a href="https://www.casaperris.com/casaperris/noticia-LatapiocaQueespropiedadesybeneficios-15010666204261e4750be">Información acerca de la tapioca</a>
     </p>
     <p><a href="https://www.recetasgratis.net/receta-de-dulce-de-tapioca-56573.html">Receta original</a></p>
+    
+    <h2>
+        Contacto
+    </h2>
+    <form
+        action="https://formspree.io/f/xlevnryk"
+        method="POST"
+        >
+        <fieldset>
+            <legend>Inscríbete al newsletter</legend>
+            <label for="name_input">
+                Nombre
+                <input id="name_input" name="name" type="text" placeholder="Escribe tu nombre" maxlength="30" size="50">
+            </label><br><br>
+            <label>
+                Correo electrónico:
+                <input type="email" name="email" required>
+            </label><br><br>
 
+
+            <p>De qué te gustaría más recetas</p>
+            <label for="soup">
+                Sopas
+                <input type="checkbox" id="soup" name="recipe_choice" value="soup">
+            </label>
+            <label for="sauce">
+                Aderezos y salsas
+                <input type="checkbox" id="sauce" name="recipe_choice" value="sauce">
+            </label>
+            <label for="dessert">
+                Postres
+                <input type="checkbox" id="dessert" name="recipe_choice" value="dessert">
+            </label><br><br>
+
+
+            <p>De qué país nos escribes</p>
+            <label for="mex">
+                México
+                <input type="radio" id="mex" name="country_origin" value="mex">
+            </label>
+            <label for="col">
+                Colombia
+                <input type="radio" id="col" name="country_origin" value="col">
+            </label>
+            <label for="arg">
+                Argentina
+                <input type="radio" id="arg" name="country_origin" value="arg">
+            </label><br><br>
+            <label>
+                Comentarios:
+                <textarea name="message" placeholder="Puedes mandarnos tus comentarios" maxlength="200"></textarea>
+            </label><br><br>
+            <!-- your other form fields go here -->
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
 </body>
 </html>
